@@ -15,8 +15,8 @@ public class WorkoutGenerator {
                 };
             } else if (days == 3) {
                 plan = new String[] {
-                        "Day 1: Push - https://example.com/push",
-                        "Day 2: Pull - https://example.com/pull",
+                        "Day 1: Push - https://youtube.com/shorts/JCIfrvMhbTg",
+                        "Day 2: Pull - https://youtube.com/shorts/4Ih7M2jM4nw",
                         "Day 3: Legs - https://example.com/legs"
                 };
             } else if (days == 4) {
@@ -35,7 +35,9 @@ public class WorkoutGenerator {
                         "Day 5: Cardio + Abs - https://example.com/cardio-abs"
                 };
             }
-        } else if (goal.equalsIgnoreCase("Weight Loss")) {
+
+        }
+        else if (goal.equalsIgnoreCase("Weight Loss")) {
             if (days == 1) {
                 plan = new String[] {
                         "Day 1: Full Body HIIT - https://example.com/hiit"
