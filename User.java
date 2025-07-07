@@ -1,19 +1,19 @@
 
 public class User {
-    private String name;
+    private String email;
     private String password;
     private String goal;
     private int days;
 
-    public User(String name, String password, String goal, int days) {
-        this.name = name;
+    public User(String email, String password, String goal, int days) {
+        this.email = email;
         this.password = password;
         this.goal = goal;
         this.days = days;
     }
 
-    public String getName() {
-        return name;
+    public String getEmail() {
+        return email;
     }
 
     public String getPassword() {
@@ -37,7 +37,7 @@ public class User {
     }
 
     public String toFileString() {
-        return name + "," + password + "," + goal + "," + days;
+        return email + "," + password + "," + goal + "," + days;
     }
 
     public static User fromString(String line) {
